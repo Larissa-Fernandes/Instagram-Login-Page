@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Copygram</title>
+        <link href="https://fonts.googleapis.com/css2?family=Rochester&display=swap" rel="stylesheet">         
+    </head>
+    <body>
+        <div class="mainContent">
+            <div class="smartphoneSlide">
+                <img src='assets/smartphones.png' id="smartphones">
+                <ul class="slideshow">
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                </ul>
+            </div>
+            <div class="squares">
+                <div class="squareBig">
+                    <span id="copygram">Copygram</span>
+                    <form id='formLogin' action="">
+                        <div class="floatLabel">
+                            <input id="userInput" type="text" name="user" placeholder=""/>
+                            <label for="userInput">Telefone, nome de usuário ou email</label>
+                        </div>
+                        <div class="floatLabel">
+                            <input id="passwordInput" type="password" placeholder=""/>
+                            <label for="passwordInput">Senha</label>
+                        </div>
+                        <input type="submit" value="Entrar" id="submitButton" disabled/>
+                    </form>
+                    <p class="line">OU</p>
+                    <a href="#facebookLink" id="facebookButton"><img src="assets/facebook.png">Entrar com o Facebook</a>
+                    <a href="#passwordLink" id="passwordButton">Esqueceu a senha?</a>
+                </div>
+                <div class="squareSmall">
+                    <a>Não tem uma conta? <span id="cadastre-se">Cadastre-se</span></a>
+                </div>
+                <div class="apps">
+                    <p>Obtenha o aplicativo.</p>
+                    <div class="appsImg">
+                        <a href="#appStore"><img src="assets/appStore.png" alt="App Store"></a>
+                        <a href="#GooglePlay"><img src="assets/googlePlay.png" alt="Google Play"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="linksFooter">
+                <a href="#sobre">Sobre</a>
+                <a href="#blog">Blog</a>
+                <a href="#carreiras">Carreiras</a>
+                <a href="#ajuda">Ajuda</a>                
+                <a href="#api">API</a>
+                <a href="#privacidade">Privacidade</a>
+                <a href="#termos">Termos</a>
+                <a href="#contas">Principais contas</a>
+                <a href="#hashtags">Hashtags</a>
+                <a href="#localizações">Localizações</a>    
+            </div>
+            <div class="secondLine">
+                <select name="languages" id="languages">
+                    <option value="pt" selected>Português (Brasil)</option>
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                </select>
+                <p>© 2021 Instagram do Facebook</p>
+            </div>
+        </footer>
+    </body>
+</html>
