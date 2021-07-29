@@ -3,7 +3,7 @@
 The challenge, proposed by DIO (Digital Innovation One) was to reproduce the Instagram login page.
 
 ## The original:
-<img src='assets/Instagram' alt='Instagram original page'>
+![alt text](https://github.com/Larissa-Fernandes/Instagram-Login-Page/blob/main/assets/Instagram.png)
 
 ## The result:
-<img src='assets/Copygram' alt='Instagram copy page'>
+![alt text](https://github.com/Larissa-Fernandes/Instagram-Login-Page/blob/main/assets/Copygram.png)
